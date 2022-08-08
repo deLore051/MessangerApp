@@ -6,5 +6,9 @@ target 'MessangerApp' do
   use_frameworks!
 
   # Pods for MessangerApp
+	pod 'FirebaseAuth'
+	pod 'FirebaseFirestore'
+	pod 'FirebaseStorage'
+	pod 'FirebaseCore'
 
 end
