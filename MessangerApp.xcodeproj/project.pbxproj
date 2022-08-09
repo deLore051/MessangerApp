@@ -14,6 +14,14 @@
 		7F0D8BE528A190AA00463D7A /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BE428A190AA00463D7A /* VideoPlayerViewController.swift */; };
 		7F0D8BE728A190D100463D7A /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BE628A190D100463D7A /* NewConversationViewController.swift */; };
 		7F0D8BE928A191C800463D7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D8BE828A191C800463D7A /* GoogleService-Info.plist */; };
+		7F0D8BEC28A2DF2B00463D7A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BEB28A2DF2B00463D7A /* TabBarViewController.swift */; };
+		7F0D8BEF28A2DFA200463D7A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BEE28A2DFA200463D7A /* AuthManager.swift */; };
+		7F0D8BF128A2DFAA00463D7A /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BF028A2DFAA00463D7A /* ErrorManager.swift */; };
+		7F0D8BF328A2DFB300463D7A /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BF228A2DFB300463D7A /* FirestoreManager.swift */; };
+		7F0D8BF528A2DFBB00463D7A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BF428A2DFBB00463D7A /* StorageManager.swift */; };
+		7F0D8BF728A2EC9B00463D7A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BF628A2EC9B00463D7A /* UserInfo.swift */; };
+		7F0D8BF928A2EE0800463D7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BF828A2EE0800463D7A /* Constants.swift */; };
+		7F0D8BFB28A2F1E600463D7A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D8BFA28A2F1E600463D7A /* DatabaseManager.swift */; };
 		7F1365B528A1884600BCC51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1365B428A1884600BCC51F /* AppDelegate.swift */; };
 		7F1365B728A1884600BCC51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1365B628A1884600BCC51F /* SceneDelegate.swift */; };
 		7F1365B928A1884600BCC51F /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1365B828A1884600BCC51F /* ConversationsViewController.swift */; };
@@ -31,6 +39,14 @@
 		7F0D8BE428A190AA00463D7A /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		7F0D8BE628A190D100463D7A /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		7F0D8BE828A191C800463D7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F0D8BEB28A2DF2B00463D7A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7F0D8BEE28A2DFA200463D7A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		7F0D8BF028A2DFAA00463D7A /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		7F0D8BF228A2DFB300463D7A /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		7F0D8BF428A2DFBB00463D7A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		7F0D8BF628A2EC9B00463D7A /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		7F0D8BF828A2EE0800463D7A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7F0D8BFA28A2F1E600463D7A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		7F1365B128A1884600BCC51F /* MessangerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessangerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1365B428A1884600BCC51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F1365B628A1884600BCC51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +92,7 @@
 		7F0D8BD628A18CF700463D7A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7F0D8BF628A2EC9B00463D7A /* UserInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +110,7 @@
 				7F1365B428A1884600BCC51F /* AppDelegate.swift */,
 				7F1365B628A1884600BCC51F /* SceneDelegate.swift */,
 				7F0D8BE828A191C800463D7A /* GoogleService-Info.plist */,
+				7F0D8BF828A2EE0800463D7A /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -109,6 +127,7 @@
 		7F0D8BDA28A18FCA00463D7A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7F0D8BEB28A2DF2B00463D7A /* TabBarViewController.swift */,
 				7F1365B828A1884600BCC51F /* ConversationsViewController.swift */,
 				7F0D8BDF28A1905800463D7A /* ProfileViewController.swift */,
 			);
@@ -123,6 +142,18 @@
 				7F0D8BE628A190D100463D7A /* NewConversationViewController.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7F0D8BED28A2DF4400463D7A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D8BEE28A2DFA200463D7A /* AuthManager.swift */,
+				7F0D8BF028A2DFAA00463D7A /* ErrorManager.swift */,
+				7F0D8BF228A2DFB300463D7A /* FirestoreManager.swift */,
+				7F0D8BFA28A2F1E600463D7A /* DatabaseManager.swift */,
+				7F0D8BF428A2DFBB00463D7A /* StorageManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		7F1365A828A1884500BCC51F = {
@@ -146,11 +177,12 @@
 		7F1365B328A1884600BCC51F /* MessangerApp */ = {
 			isa = PBXGroup;
 			children = (
-				7F0D8BD828A18D0400463D7A /* Resources */,
-				7F0D8BD728A18CFE00463D7A /* ViewModels */,
 				7F0D8BD628A18CF700463D7A /* Models */,
-				7F0D8BD528A18CEC00463D7A /* Controllers */,
 				7F0D8BD428A18CDF00463D7A /* Views */,
+				7F0D8BD728A18CFE00463D7A /* ViewModels */,
+				7F0D8BD528A18CEC00463D7A /* Controllers */,
+				7F0D8BED28A2DF4400463D7A /* Managers */,
+				7F0D8BD828A18D0400463D7A /* Resources */,
 				7F1365C228A1884A00BCC51F /* Info.plist */,
 			);
 			path = MessangerApp;
@@ -170,7 +202,6 @@
 				ABA4E15A193FADB502877BB4 /* Pods-MessangerApp.debug.xcconfig */,
 				3B42432BDF07148064B02AA5 /* Pods-MessangerApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -291,12 +322,20 @@
 			files = (
 				7F0D8BE028A1905800463D7A /* ProfileViewController.swift in Sources */,
 				7F0D8BDC28A1901A00463D7A /* LoginViewController.swift in Sources */,
+				7F0D8BF328A2DFB300463D7A /* FirestoreManager.swift in Sources */,
+				7F0D8BF528A2DFBB00463D7A /* StorageManager.swift in Sources */,
+				7F0D8BFB28A2F1E600463D7A /* DatabaseManager.swift in Sources */,
 				7F0D8BDE28A1902600463D7A /* RegisterViewController.swift in Sources */,
 				7F0D8BE328A1909500463D7A /* PhotoViewerViewController.swift in Sources */,
 				7F1365B928A1884600BCC51F /* ConversationsViewController.swift in Sources */,
+				7F0D8BF928A2EE0800463D7A /* Constants.swift in Sources */,
 				7F0D8BE528A190AA00463D7A /* VideoPlayerViewController.swift in Sources */,
+				7F0D8BF128A2DFAA00463D7A /* ErrorManager.swift in Sources */,
 				7F0D8BE728A190D100463D7A /* NewConversationViewController.swift in Sources */,
 				7F1365B528A1884600BCC51F /* AppDelegate.swift in Sources */,
+				7F0D8BEF28A2DFA200463D7A /* AuthManager.swift in Sources */,
+				7F0D8BEC28A2DF2B00463D7A /* TabBarViewController.swift in Sources */,
+				7F0D8BF728A2EC9B00463D7A /* UserInfo.swift in Sources */,
 				7F1365B728A1884600BCC51F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +485,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +514,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
